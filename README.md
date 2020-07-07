@@ -1,2 +1,1 @@
-# dictionary
-A dictionary web-app
+# Movie Posters

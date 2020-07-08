@@ -84,3 +84,60 @@ button:hover {
 .carousel-control-next, .carousel-control-prev {
     width: 60px
 }
+
+@media (min-width: 1200px) {
+    .gallery {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    h2 {
+        margin-left: calc(5% + 1rem);
+    }
+}
+
+
+@media (max-width: 992px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .carousel-item img {
+        width: 90%;
+        height: auto
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        width: 90%;
+        margin-left: 5% !important;
+    }
+
+    #search {
+        padding: 12px;
+        margin-top: 12px;
+    }
+
+    .col-md-10 {
+        padding: 0
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 36px;
+    }
+}
